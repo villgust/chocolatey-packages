@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>postgresql96</id>
+    <version>9.6.8.1</version>
+    <title>PostgreSQL 9.6</title>
+    <authors>pgsql developers</authors>
+    <owners>Villgust</owners>
+    <licenseUrl>http://www.postgresql.org/about/licence</licenseUrl>
+    <projectUrl>http://www.postgresql.org/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/villgust/chocolatey-packages/master/postgresql96/postgresql_server96.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+This package installs PostgreSQL 9.6. The creation of a package dedicated to the release version matches the distribution methodology employed by EnterpriseDB on Linux, and thus protecting against unwanted or unexpected upgrades.
+
+Installs to %ChocolateyBinRoot%\postgresql96
+By default %ChocolateyBinRoot% is C:\tools
+
+Creates the user: postgresql with password: Postgres-1234
+Creates, and starts, a Windows Service for PostgreSQL named: postgresql96
+
+This release forked from the postgresql94 package (https://github.com/DevoKun/chocolatey-templates) by DevoKun
+</description>
+    <summary>PostgreSQL Databas Server release 9.6.</summary>
+    <tags>postgresql database sql</tags>
+  </metadata>
+</package>
